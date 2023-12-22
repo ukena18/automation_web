@@ -23,6 +23,7 @@ def number_dial(section,number):
             section.send_keys(Keys.NUMPAD4)
         if i == "5":
             section.send_keys(Keys.NUMPAD5)
+
         if i == "6":
             section.send_keys(Keys.NUMPAD6)
         if i == "7":
