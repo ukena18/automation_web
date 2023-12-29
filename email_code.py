@@ -24,6 +24,8 @@ def get_code():
         for num in search_data[0].split():
             _, data = mail.fetch(num, '(RFC822)')
             _, b = data[0]
+
+
             email_message = email.message_from_bytes(b)
             #get the subject and split get the code part
             #it is from 10 to -2 always
