@@ -23,7 +23,9 @@ def get_code():
 
         for num in search_data[0].split():
             _, data = mail.fetch(num, '(RFC822)')
-            _, b = data[0]
+            _, b = 
+
+data[0]
 
 
             email_message = email.message_from_bytes(b)
