@@ -15,6 +15,8 @@ def complete_check(row,accept):
             sheet[f'K{row}'] = 'FAIL'
 
 
+
+
         xfile.save('data_ex.xlsx')
     except Exception as err:
         print("fail to updata complete status", err)
